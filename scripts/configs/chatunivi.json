@@ -1,0 +1,9 @@
+{
+    "spatial_compression": true,
+    "spatial_clustering_ratio": [0.45],
+    
+    "temporal_compression": false,
+    "temporal_clustering_ratio": [0.0625],
+
+    "compression_before_llm": true
+}

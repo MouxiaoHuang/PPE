@@ -1,0 +1,96 @@
+[
+    {
+        "id": "Ux_uhzpm1aY",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<video>\nWhat happens after Robben misses the penalty?"
+            },
+            {
+                "from": "gpt",
+                "value": "The goalkeeper saves the shot, and Robben reacts with disappointment, holding his head in his hands."
+            },
+            {
+                "from": "human",
+                "value": "Where is Subotic when he appears to be shouting at Robben?"
+            },
+            {
+                "from": "gpt",
+                "value": "Subotic is near Robben, approaching him and appearing to be shouting."
+            },
+            {
+                "from": "human",
+                "value": "Why does Subotic look dejected at the end of the video?"
+            },
+            {
+                "from": "gpt",
+                "value": "Subotic looks dejected because Robben scored a decisive goal to win the UCL, and Subotic is seen regretting his earlier taunt."
+            },
+            {
+                "from": "human",
+                "value": "Where does the video begin?"
+            },
+            {
+                "from": "gpt",
+                "value": "The video begins on a football field with Robben preparing to take a penalty kick."
+            },
+            {
+                "from": "human",
+                "value": "What is Robben's reaction after missing the penalty?"
+            },
+            {
+                "from": "gpt",
+                "value": "Robben reacts with disappointment, holding his head in his hands."
+            }
+        ],
+        "data_source": "0_30_s_youtube_v0_1",
+        "video": "relative_path/to/ytb_Ux_uhzpm1aY.mp4",
+        "metadata": {
+            "modality": "video"
+        }
+    },
+    {
+        "id": "3e4fa55df89af0f8",
+        "image": "relative_path/to/3e4fa55df89af0f8.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\nPresent a compact description of the photo's key features."
+            },
+            {
+                "from": "gpt",
+                "value": "A plane in the air reads \"norwegian.com\" on the side."
+            }
+        ],
+        "sample_id": 0,
+        "metadata": {
+            "data_source": "ureader_cap"
+        }
+    },
+    {
+        "datasource": "iconqa",
+        "id": "iconqa_train_choose_img_kindergarten_V5_36247",
+        "image": [
+            "relative_path/to/image.png",
+            "relative_path/to/choice_0.png",
+            "relative_path/to/choice_1.png"
+        ],
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Which shape is a rectangle?<image>\nA. <image>\nB. <image>"
+            },
+            {
+                "from": "gpt",
+                "value": "Answer: A"
+            }
+        ],
+        "metadata": {
+            "dataset": "iconqa",
+            "split": "train",
+            "num_sample": 0,
+            "task_instruction": "",
+            "question_type": "multi-choice"
+        }
+    }
+]

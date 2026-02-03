@@ -1,0 +1,14 @@
+{
+    "spatial_compression": true,
+    "spatial_clustering_ratio": [0.45],
+
+    "temporal_compression": false,
+    "temporal_clustering_ratio": [0.0625],
+
+    "compression_before_llm": false,
+    "compression_cascade": true,
+    "cascade_layer": [11, 23, 35],
+
+    "use_ppe": true,
+    "ppe_k": 8
+}
