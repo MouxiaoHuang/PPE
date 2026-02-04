@@ -3,7 +3,28 @@ PPE: Positional Preservation Embedding for Token Compression in Multimodal Large
 </h1>
 <p align="center">
   <a href="https://arxiv.org/abs/2510.22936">
-    <img src="https://img.shields.io/badge/arXiv-2510.22936-b31b1b.svg" />
+    <img
+      src="https://img.shields.io/badge/arXiv-2510.22936-b31b1b.svg?logo=arxiv&logoColor=white&style=flat-square"
+      alt="arXiv:2510.22936"
+    />
+  </a>
+  <a href="https://openreview.net/forum?id=OV0AoK7QEr">
+    <img
+      src="https://img.shields.io/badge/ICLR%202026-Accepted-4b44ce?style=flat-square"
+      alt="ICLR 2026 Accepted"
+    />
+  </a>
+  <a href="https://github.com/MouxiaoHuang/PPE">
+    <img
+      src="https://img.shields.io/github/stars/MouxiaoHuang/PPE?style=flat-square"
+      alt="GitHub stars"
+    />
+  </a>
+  <a href="https://github.com/MouxiaoHuang/PPE/blob/main/LICENSE">
+    <img
+      src="https://img.shields.io/github/license/MouxiaoHuang/PPE?style=flat-square"
+      alt="License"
+    />
   </a>
 </p>
 <p align="center">
