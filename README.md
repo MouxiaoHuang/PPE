@@ -1,18 +1,16 @@
 <h1 align="center">
-PPE: Positional Preservation Embedding for Multimodal Large Language Models
+PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models
 </h1>
 <p align="center">
   <a href="https://arxiv.org/abs/2510.22936">
     <img src="https://img.shields.io/badge/arXiv-2510.22936-b31b1b.svg" />
-  </a>
-  <a href="https://openreview.net/forum?id=OV0AoK7QEr">
-    <img src="https://img.shields.io/badge/OpenReview-ICLR%202026-blue.svg" />
   </a>
 </p>
 <p align="center">
   <img src="./docs/figures/ppe1.png" alt="PPE Framework Overview" width="49%">
   <img src="./docs/figures/ppe2.png" alt="PPE Framework Overview" width="49%">
 </p>
+
 
 
 ---
@@ -229,7 +227,7 @@ If you find this work helpful, please consider citing us:
 
 ### Q1: Why are some baseline comparisons missing from this repo?
 
-**A:** To ensure reliability, we directly conducted comparisons using official implementations for PACT, ToMe, and VisionZip, etc.
+**A:** For convenience, we directly conducted comparisons using official implementations for PACT, ToMe, and VisionZip, etc.
 
 ### Q2: Why are some benchmarks missing from this repo?
 
@@ -239,7 +237,7 @@ If you find this work helpful, please consider citing us:
 
 **A:** This version adapts to Qwen2.5-VL, which originally uses 3D-MRoPE (`mrope_section=[16, 24, 24]`). K=8 works well for both video and image experiments. For experiments strictly aligned with the paper's image-only results, please manually switch to 2D-MRoPE.
 
-### Q4: What if we set $K=32$ when using PPE with  `mrope_section=[16, 24, 24]`?
+### Q4: What if we set K=32 when using PPE with  `mrope_section=[16, 24, 24]`?
 
 **A:** It falls back to a repeating `[1(T), 1(H), 1(W), ...]` pattern. Since $64$ is not divisible by $3$, it only yields $21$ complete $T/H/W$ triplets, leaving the remainder incomplete. Although not the intended implementation, the performance remains decent because the compressed token still captures multiple position cues rather than just one.
 
