@@ -10,8 +10,8 @@ PPE: Positional Preservation Embedding for Token Compression in Multimodal Large
   </a>
   <a href="https://openreview.net/forum?id=OV0AoK7QEr">
     <img
-      src="https://img.shields.io/badge/ICLR%202026-Accepted-4b44ce?style=flat-square"
-      alt="ICLR 2026 Accepted"
+      src="https://img.shields.io/badge/ICLR%202026-Poster-4b44ce?style=flat-square"
+      alt="ICLR 2026 Poster"
     />
   </a>
   <a href="https://github.com/MouxiaoHuang/PPE">

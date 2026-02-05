@@ -64,7 +64,7 @@ def parse_args():
     parser.add_argument("--script_path", type=str, default=None)
     parser.add_argument("--model_path", type=str, required=True)
     parser.add_argument("--task", type=str, default="videomme", 
-                        help="Video or image tasks, see in ./src/evaluate/datasets")
+                        help="Video or image tasks, see in ./src/evaluate/benchmarks")
     parser.add_argument("--max_new_tokens", type=int, default=128)
     parser.add_argument("--save_dir", type=str, default=None)
     parser.add_argument("--fps", type=float, default=2.0)
