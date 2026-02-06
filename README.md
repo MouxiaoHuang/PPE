@@ -218,7 +218,7 @@ If you find this work helpful, please consider citing us:
 
 ```bibtex
 @article{huang2025ppe,
-	title={Positional Preservation Embedding for Multimodal Large Language Models},
+	title={PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models},
   	author={Mouxiao Huang and Borui Jiang and Dehua Zheng and Hailin Hu and Kai Han and Xinghao Chen},
   	journal={arXiv preprint arXiv:2510.22936},
   	year={2025}
