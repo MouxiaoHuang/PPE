@@ -1,20 +1,47 @@
 <h1 align="center">
 PPE: Positional Preservation Embedding for Token Compression in Multimodal Large Language Models
 </h1>
+
+<p align="center">
+  Mouxiao Huang*,
+  Borui Jiang*✉,
+  Dehua Zheng,
+  Hailin Hu✉,
+  Kai Han,
+  Xinghao Chen✉
+</p>
+
+<p align="center">
+  * Equal contribution
+</p>
+
 <p align="center">
   <a href="https://arxiv.org/abs/2510.22936"><img src="https://img.shields.io/badge/arXiv-2510.22936-b31b1b.svg?logo=arxiv&logoColor=white" alt="arXiv:2510.22936"/></a>
-  <img src="https://img.shields.io/badge/ICLR%202026-Poster-blue" alt="ICLR 2026 Poster"/></a>
+  <a href="https://iclr.cc/virtual/2026/poster/10009775"><img src="https://img.shields.io/badge/ICLR%202026-Poster-blue" alt="ICLR 2026 Poster"/></a>
   <a href="https://github.com/MouxiaoHuang/PPE/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MouxiaoHuang/PPE"/></a>
   <a href="https://github.com/MouxiaoHuang/PPE"><img src="https://img.shields.io/github/stars/MouxiaoHuang/PPE" alt="GitHub stars"/></a>
 </p>
+
 <p align="center">
   ⭐ If you find this useful, a star would be appreciated
 </p>
+
 <p align="center">
   <img src="./docs/figures/ppe1.png" alt="PPE Framework Overview" width="49%">
   <img src="./docs/figures/ppe2.png" alt="PPE Framework Overview" width="49%">
 </p>
 
+## 🗺 Roadmap
+
+- ✅ Paper accepted at ICLR 2026
+- ✅ Core PPE implementation released
+- ✅ Training and inference pipeline
+
+- 🔜 Additional benchmark support
+- 🔜 Cascade compression for image inputs
+- 🔜 Finetuned checkpoints
+- 🔜 Extended backbone support
+- 🔜 HuggingFace integration
 
 
 ---
