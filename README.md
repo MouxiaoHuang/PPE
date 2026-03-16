@@ -77,14 +77,11 @@ PPE: Positional Preservation Embedding for Token Compression in Multimodal Large
 
 ## 📦 Installation
 
-### ✅ Requirements
+```bash
+pip install -r requirements.txt
+```
 
-* `transformers` ≥ 4.50 (required for Qwen2.5-VL support)
-* `liger_kernel`
-* `deepspeed`
-* `flash-attn`
-* `accelerate==1.1.1`
-* `torch_npu` (optional, only needed for Ascend NPU usage)
+Ascend NPU: uncomment `torch_npu` in `requirements.txt`, then run the same command.
 
 ---
 
@@ -172,9 +169,9 @@ We develop a simple, user-friendly pipeline that ensures inference is fully comp
 * `DATA_JSON`: JSON file describing the dataset (examples in `./data/demo.json`)
 
 ```bash
-bash script/run_sft.sh
+bash scripts/run_sft.sh
 # For debugging (single GPU/NPU, no deepspeed, supports breakpoint):
-# bash script/run_sft.sh debug
+# bash scripts/run_sft.sh debug
 ```
 
 ---
@@ -189,9 +186,9 @@ bash script/run_sft.sh
 #### Run Inference
 
 ```bash
-MODEL_PATH=/path/to/model bash script/run_infer.sh
+MODEL_PATH=/path/to/model bash scripts/run_infer.sh
 # For debugging (single GPU/NPU, supports breakpoint):
-# bash script/run_infer.sh debug
+# bash scripts/run_infer.sh debug
 ```
 
 ---
@@ -307,4 +304,3 @@ We build upon the inspiring work of:
 
 * [Qwen-VL-Series-Finetune](https://github.com/2U1/Qwen-VL-Series-Finetune)
 * [Chat-UniVi](https://github.com/PKU-YuanGroup/Chat-UniVi)
-

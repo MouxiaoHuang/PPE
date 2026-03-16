@@ -1,0 +1,7 @@
+transformers>=4.50
+liger_kernel
+deepspeed
+flash-attn
+accelerate==1.1.1
+# Optional for Ascend NPU:
+# torch_npu
